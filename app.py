@@ -129,7 +129,7 @@ if 'language' not in st.session_state:
     st.session_state.language = 'English'
 
 # Configure Gemini API
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE"  # Replace with your actual API key
+GEMINI_API_KEY = "AIzaSyCIqDZLHu_ibGtb23S0UxUJgSvfGb8e93Q"  # Replace with your actual API key
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
